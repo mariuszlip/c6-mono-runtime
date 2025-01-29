@@ -27,4 +27,3 @@ jobs:
           platforms: linux/arm64,linux/amd64
           tags: mergermarket/c6-mono-runtime:${{ inputs.image_version }},mergermarket/c6-mono-runtime:latest
           push: true
-          context: .
